@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# This is a single-page anchor site with no router, so no SPA rewrite is
+# needed. Netlify serves dist/404.html (copied from public/404.html) for
+# unmatched paths.
