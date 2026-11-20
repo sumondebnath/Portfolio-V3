@@ -48,7 +48,7 @@ export default function BottomNav() {
             <a
               key={link.name}
               href={link.href}
-              aria-label={link.label || link.name}
+              aria-label={link.ariaLabel || link.label || link.name}
               title={link.label || link.name}
               {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
               className={itemClass}

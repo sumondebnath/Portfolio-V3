@@ -250,14 +250,6 @@
   height: 100%;
 }
 
-/* ── Contact section soft glow ── */
-.contact-glow {
-  position: absolute;
-  inset: -40% -10%;
-  background: radial-gradient(circle at 50% 18%, rgba(94, 234, 212, 0.12), rgba(94, 234, 212, 0) 62%);
-  pointer-events: none;
-}
-
 /* ── Scroll reveal (subtle fade + slide + blur-to-clear, staggered via inline transition-delay).
    Content is VISIBLE BY DEFAULT. JS applies .is-pending only when it can actually
    animate (element below the fold, IntersectionObserver supported, motion allowed).

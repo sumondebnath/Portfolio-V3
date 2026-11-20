@@ -207,6 +207,7 @@ export default function AnimatedBackground() {
       window.removeEventListener('pointermove', onPointerMove);
       window.removeEventListener('pointerleave', onPointerLeave);
       document.removeEventListener('visibilitychange', onVisibility);
+      document.documentElement.style.removeProperty('--bg-parallax');
     };
   }, []);
 

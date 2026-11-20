@@ -1,5 +1,7 @@
 # Sumon Debnath — Portfolio
 
+Junior Full-Stack Software Engineer
+
 A personal portfolio site built with React, Vite, and Tailwind CSS v4. It is a
 static, dark-only, single-page site: sections are navigated by anchor links and
 there is no client-side router. Contact is email-only (no form or backend).

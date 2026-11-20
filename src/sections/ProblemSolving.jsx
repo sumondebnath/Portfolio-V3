@@ -13,9 +13,7 @@ const letter = (name) => name.trim().charAt(0).toUpperCase() || '?';
  */
 export default function ProblemSolving() {
   const { platforms = [], linktree } = problemSolving;
-  const hasLinktree = Boolean(
-    linktree && (linktree.url || linktree.label || linktree.description),
-  );
+  const hasLinktree = Boolean(linktree?.url);
   if (!Array.isArray(platforms) || platforms.length === 0) return null;
 
   return (
