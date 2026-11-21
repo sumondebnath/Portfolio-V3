@@ -50,13 +50,19 @@ export default function BottomNav() {
               href={link.href}
               aria-label={link.ariaLabel || link.label || link.name}
               title={link.label || link.name}
-              {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+              {...(external
+                ? { target: '_blank', rel: 'noopener noreferrer' }
+                : {})}
               className={itemClass}
             >
               {link.icon === 'mail' ? (
                 <Mail className="size-5" aria-hidden="true" />
               ) : (
-                <BrandIcon type={link.icon} className="size-5" strokeWidth={1.8} />
+                <BrandIcon
+                  type={link.icon}
+                  className="size-5"
+                  strokeWidth={1.8}
+                />
               )}
             </a>
           );

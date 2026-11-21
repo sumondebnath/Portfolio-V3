@@ -3,7 +3,7 @@ import BottomNav from './components/layout/BottomNav';
 import About from './sections/About';
 import Contact from './sections/Contact';
 import Education from './sections/Education';
-import Experience from './sections/Experience';
+// import Experience from './sections/Experience';
 import Hero from './sections/Hero';
 import ProblemSolving from './sections/ProblemSolving';
 import Projects from './sections/Projects';
@@ -19,7 +19,7 @@ function App() {
       <main id="main">
         <Hero />
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Education />
         <Skills />
         <Projects />

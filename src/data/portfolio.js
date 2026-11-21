@@ -204,7 +204,8 @@ export const education = [
     endDate: 'Spring 2023',
     description:
       'Programming fundamentals in C and C++, data structures and algorithms, and object-oriented programming. Credential ID: PHBATCH361409601061.',
-    credentialUrl: 'https://phitron.io/verification?validationNumber=PHBATCH361409601061',
+    credentialUrl:
+      'https://phitron.io/verification?validationNumber=PHBATCH361409601061',
     credentialLabel: 'Verify certificate',
   },
 ];
